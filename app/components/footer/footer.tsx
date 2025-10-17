@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Instagram, Facebook, Twitter, Linkedin, LinkedinIcon } from "lucide-react";
+import { Instagram, Facebook, Twitter, LinkedinIcon } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <h2 className="text-xl font-bold">
-              <span className="text-blue-600">Property</span>Pulse
+              <span className="text-rose-600">Property</span>Pulse
             </h2>
             <p className="mt-2 text-sm text-gray-600 leading-relaxed">
               Crafting Seamless Real Estate Experiences
@@ -19,16 +19,16 @@ export default function Footer() {
 
             <div className="mt-4 flex space-x-4">
               <Link href="#" aria-label="Instagram">
-                <Instagram className="h-5 w-5 text-gray-700 hover:text-blue-600 transition" />
+                <Instagram className="h-5 w-5 text-gray-700 hover:text-rose-600 transition" />
               </Link>
               <Link href="#" aria-label="Facebook">
-                <Facebook className="h-5 w-5 text-gray-700 hover:text-blue-600 transition" />
+                <Facebook className="h-5 w-5 text-gray-700 hover:text-rose-600 transition" />
               </Link>
               <Link href="#" aria-label="Twitter">
-                <Twitter className="h-5 w-5 text-gray-700 hover:text-blue-600 transition" />
+                <Twitter className="h-5 w-5 text-gray-700 hover:text-rose-600 transition" />
               </Link>
               <Link href="#" aria-label="LinkedIn">
-                <LinkedinIcon className="h-5 w-5 text-gray-700 hover:text-blue-600 transition" />
+                <LinkedinIcon className="h-5 w-5 text-gray-700 hover:text-rose-600 transition" />
               </Link>
             </div>
           </div>
@@ -38,13 +38,13 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 mb-3">Company</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>
-                <Link href="#" className="hover:text-blue-600">About Us</Link>
+                <Link href="#" className="hover:text-rose-600">About Us</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-blue-600">Terms of Service</Link>
+                <Link href="#" className="hover:text-rose-600">Terms of Service</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-blue-600">Blog</Link>
+                <Link href="#" className="hover:text-rose-600">Blog</Link>
               </li>
             </ul>
           </div>
@@ -53,10 +53,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-gray-900 mb-3">Resources</h3>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li><Link href="#" className="hover:text-blue-600">FAQ</Link></li>
-              <li><Link href="#" className="hover:text-blue-600">Career</Link></li>
-              <li><Link href="#" className="hover:text-blue-600">Videos</Link></li>
-              <li><Link href="#" className="hover:text-blue-600">Our Homes</Link></li>
+              <li><Link href="#" className="hover:text-rose-600">FAQ</Link></li>
+              <li><Link href="#" className="hover:text-rose-600">Career</Link></li>
+              <li><Link href="#" className="hover:text-rose-600">Videos</Link></li>
+              <li><Link href="#" className="hover:text-rose-600">Our Homes</Link></li>
             </ul>
           </div>
 
@@ -65,12 +65,12 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 mb-3">Contact Us</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>
-                <a href="mailto:hi@propertypulse.com" className="hover:text-blue-600">
+                <a href="mailto:hi@propertypulse.com" className="hover:text-rose-600">
                   hi@propertypulse.com
                 </a>
               </li>
               <li>
-                <Link href="#" className="hover:text-blue-600">Twitter Support</Link>
+                <Link href="#" className="hover:text-rose-600">Twitter Support</Link>
               </li>
             </ul>
           </div>
@@ -80,9 +80,9 @@ export default function Footer() {
         <div className="mt-10 border-t border-gray-400 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>© 2023 Hello, PropertyPulse</p>
           <div className="flex space-x-6 mt-3 md:mt-0">
-            <Link href="#" className="hover:text-blue-600">Privacy</Link>
-            <Link href="#" className="hover:text-blue-600">Terms of Agreement</Link>
-            <Link href="#" className="hover:text-blue-600">Licenses</Link>
+            <Link href="#" className="hover:text-rose-600">Privacy</Link>
+            <Link href="#" className="hover:text-rose-600">Terms of Agreement</Link>
+            <Link href="#" className="hover:text-rose-600">Licenses</Link>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import {  Search, ChevronDown } from "lucide-react";
+import {  Search } from "lucide-react";
 import Image from "next/image";
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
         />
 
         {/* Overlay Content */}
-        <div className="relative z-10 text-center max-w-xl px-4">
+        <div className="relative z-10 text-center max-w-xl  p-16">
           <h5 className="text-sm font-semibold uppercase tracking-wider mb-2">The Best Way To</h5>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Find Your Dream Home</h1>
           <p className="text-sm mb-6">We’ve more than 750+ verified apartments, places & plots</p>
@@ -56,13 +56,12 @@ export default function Hero() {
   );
 }
 
-function Dropdown({ label }: { label: string }) {
-  return (
-    <div className="relative group">
-      <button className="flex items-center gap-1 hover:text-red-500">
-        {label} <ChevronDown size={14} />
-      </button>
-      {/* You can add dropdown items here */}
-    </div>
-  );
-}
+// function Dropdown({ label }: { label: string }) {
+//   return (
+//     <div className="relative group">
+//       <button className="flex items-center gap-1 hover:text-red-500">
+//         {label} <ChevronDown size={14} />
+//       </button>
+//     </div>
+//   );
+// }
