@@ -58,9 +58,9 @@ export default function WhyChooseUs() {
           {features.map(({ id, title, text, icon: Icon, color }) => (
             <div key={id} className="flex items-start gap-4">
               <div
-                className={`flex items-center justify-center w-10 h-10 p-12 rounded-full ${color}`}
+                className={`flex items-center justify-center w-28 h-28 p-8 rounded-full ${color}`}
               >
-                <Icon className="w-20 h-20" />
+                <Icon className=" h-20 w-20" />
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">{title}:</h3>
