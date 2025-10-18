@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+import Navbar from "@/app/components/navbar/navbar";
+import Footer from "@/app/components/footer/footer";
 
 
 export const metadata: Metadata = {
@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        className=" scroll-smooth"
         
       >
         <Navbar/>
