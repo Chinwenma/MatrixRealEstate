@@ -17,7 +17,7 @@ export default function PageBanner({
   backgroundImage = '/assets/house1.jpg', // ← your default background
 }: PageBannerProps) {
   return (
-    <section className="relative w-full h-30 md:h-50 lg:h-60 overflow-hidden bg-gray-900 ">
+    <section className="relative w-full h-40 md:h-60 lg:h-70 overflow-hidden bg-gray-900 ">
       {/* Background Image */}
       <Image
         src={backgroundImage}
