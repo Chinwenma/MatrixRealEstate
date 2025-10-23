@@ -13,8 +13,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Properties", href: "/properties" },
-    { name: "Agents", href: "/agents" },
-    { name: "About Us", href: "/about" },
+    { name: "About", href: "/about" },
+    {name: "Contact", href: "/contact"}
   ];
 
   useEffect(() => {

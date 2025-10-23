@@ -6,7 +6,7 @@ import About from "./About";
 
 export default function Aboutpage() {
   return (
-    <div>
+    <main>
       <PageBanner
       title="About us"
       backgroundImage="/assets/house1.jpg"
@@ -16,6 +16,6 @@ export default function Aboutpage() {
       <MissionVision/>
       <PropertyCategories/>
       <Team/>
-    </div>
+    </main>
   )
 }
