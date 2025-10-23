@@ -1,5 +1,4 @@
 import FooterBanner from "./components/footer/FooterBanner";
-// import PropertyCategories from "./components/home/Categories";
 import HowItWorks from "./components/home/HowItWorks";
 import WhyChooseUs from "./components/home/WhyChooseUs";
 import FeaturedProperties from "./components/featured/FeaturedPrioperty";
@@ -12,7 +11,6 @@ export default function Home() {
       <Hero />
       <FeaturedProperties limit={3} />
       <WhyChooseUs />
-      {/* <PropertyCategories /> */}
       <Banner />
       <HowItWorks />
       <FooterBanner />

@@ -7,6 +7,7 @@ import Footer from "./components/footer/footer";
 export const metadata: Metadata = {
   title: "Matrix Real Estate",
   description: " Find your dream home with Matrix Real Estate - Your trusted partner in property buying, selling, and renting.",
+  
 };
 
 export default function RootLayout({
@@ -18,7 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className=" scroll-smooth"
-        
       >
         <Navbar/>
         {children}
