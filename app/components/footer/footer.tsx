@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <h2 className="text-xl font-bold">
-              <span className="text-rose-600">Property</span>Pulse
+              <span className="text-rose-600">Matrix</span>Estate
             </h2>
             <p className="mt-2 text-sm text-gray-600 leading-relaxed">
               Crafting Seamless Real Estate Experiences
@@ -38,13 +38,13 @@ export default function Footer() {
             <h3 className="font-semibold text-gray-900 mb-3">Company</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>
-                <Link href="#" className="hover:text-rose-600">About Us</Link>
+                <Link href="/about" className="hover:text-rose-600">About</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-rose-600">Terms of Service</Link>
+                <Link href="/properties" className="hover:text-rose-600">Properties</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-rose-600">Blog</Link>
+                <Link href="/contact" className="hover:text-rose-600">Contant</Link>
               </li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ export default function Footer() {
               <li><Link href="#" className="hover:text-rose-600">FAQ</Link></li>
               <li><Link href="#" className="hover:text-rose-600">Career</Link></li>
               <li><Link href="#" className="hover:text-rose-600">Videos</Link></li>
-              <li><Link href="#" className="hover:text-rose-600">Our Homes</Link></li>
+              <li><Link href="/properties" className="hover:text-rose-600">Our Homes</Link></li>
             </ul>
           </div>
 
@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-600">
               <li>
                 <a href="mailto:hi@propertypulse.com" className="hover:text-rose-600">
-                  hi@propertypulse.com
+                  matrixestate@sample.com
                 </a>
               </li>
               <li>
